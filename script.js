@@ -88,7 +88,6 @@ const swiper = new Swiper('.js-ref-slider',{
 grabCursor: true,
 spaceBetween: 30,
 pagination:{
-  
   clickable:true
 },
 breakpoints:{
