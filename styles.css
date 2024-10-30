@@ -866,3 +866,50 @@ footer div h3{
   cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+  .footer {
+    padding: 80px 10%;
+  }
+  .footer img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer {
+    flex-direction: column;
+    padding: 60px 5%;
+  }
+  .col-1, .col-2, .col-3 {
+    margin-bottom: 20px; 
+  }
+  .footer a {
+    font-size: 20px; 
+  }
+  .footer p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-1 h3,
+  .col-2 h3,
+  .col-3 h3 {
+    font-size: 28px; 
+  }
+  .footer a {
+    font-size: 18px; 
+  }
+  .footer p {
+    font-size: 18px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 40px 5%;
+  }
+  .social-icons i {
+    font-size: 20px; 
+  }
+}
