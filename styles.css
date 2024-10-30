@@ -803,3 +803,8 @@ option{
   color: #e7dd4d;
 }
 
+@media (max-width: 480px) {
+  .ref-title{
+    font-size: 50px;
+  }
+}
