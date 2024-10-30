@@ -760,7 +760,7 @@ option{
 
 }
 .ref-header .ref-title{
-  font-size: 100px;
+  font-size: 75px;
   color: #D1B092;
 }
 .ref{
@@ -803,10 +803,10 @@ option{
   color: #e7dd4d;
 }
 
-@media (max-width: 768px) {
+@media (max-width:  700px) {
   .ref-title{
-    font-size: 20px;
-    padding: 80px 10%;
+    font-size: 18px;
+    padding: 0;
   }
 }
 .footer { 
