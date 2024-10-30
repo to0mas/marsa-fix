@@ -55,6 +55,50 @@ gsap.from(".trips-box", {
 });
 
 
+gsap.from(".ref-title", {
+  opacity: 0,
+  x: -100,
+  duration: 20,
+  ease: "expo.out",
+
+  scrollTrigger: {
+      trigger: ".ref-title",
+      start: "left 50%",
+      end: "top 30%",
+      scrub: 1,
+      markers: false
+  }
+});
+gsap.from(".booking-title", {
+  opacity: 0,
+  x: -100,
+  duration: 20,
+  ease: "expo.out",
+
+  scrollTrigger: {
+      trigger: ".booking-title",
+      start: "left 50%",
+      end: "top 30%",
+      scrub: 1,
+      markers: false
+  }
+});
+gsap.from(".vehicle-text", {
+  opacity: 0,
+  x: 100,
+  duration: 20,
+  ease: "expo.out",
+  start: "left 100%",
+
+  scrollTrigger: {
+      trigger: ".vehicle-text",
+      start: "left 100%",
+      end: "top 30%",
+      scrub: 1,
+      markers: false
+  }
+});
+
 
 
 
