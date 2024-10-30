@@ -808,3 +808,61 @@ option{
     font-size: 30px;
   }
 }
+.footer { 
+  width: 100%;
+   display: flex;
+   padding: 100px 15%;
+   color: #D1B092;
+  border-top: 1px solid #D1B092;
+}
+.footer div{
+  text-align: center;
+
+}
+.col-2{
+  flex-grow: 2;
+}
+.footer img{
+  width: 350px;
+  cursor: pointer;
+}
+footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  
+}
+.col-1 h3{
+  font-size: 35px;
+}
+.col-2 h3{
+  font-size: 35px;
+}
+.col-3 h3{
+  font-size: 35px;
+}
+.footer a{
+  font-size: 25px;
+}
+.footer p{
+  font-size: 25px;
+  margin-top: 10px;
+}
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: #D1B092;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  
+}
+.social-icons{
+  margin-top: 30px;
+}
+.social-icons i{
+  font-size:  25px;
+  margin: 10px;
+  cursor: pointer;
+}
+
